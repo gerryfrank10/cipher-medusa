@@ -3,6 +3,7 @@ import Crypto
 import ast
 from Crypto.Cipher import PKCS1_OAEP
 import base64
+import os
 
 def generate():
     new_key = RSA.generate(2048)
