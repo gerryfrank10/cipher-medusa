@@ -1,4 +1,5 @@
 from os import path
+import struct
 def Ecaesar(msg, key):
     
     letters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890./,:}{|][*&^%$!@)('
